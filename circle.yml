@@ -1,0 +1,22 @@
+# Customize the test machine
+machine:
+
+  timezone:
+    Europe/London # Set the timezone
+
+  # Version of ruby to use
+  ruby:
+    version:
+      2.3.1
+
+  hosts:
+    master.dev.nativ-systems.com: 54.171.26.34
+
+test:
+  override:
+    - bundle exec rake test:
+        parallel: true
+        files:
+          - test/**/*.rb
+    - mkdir -p $CIRCLE_TEST_REPORTS/rspec/
+    - bundle exec cucumber features/panels/project.feature

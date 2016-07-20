@@ -15,7 +15,7 @@ module Config
     end
 
     def error_logger(level, message)
-      #Logger.new(ERROR_LOG).method(level).call(message)
+      Logger.new(ERROR_LOG).method(level).call(message)
     end
 
   end

@@ -7,7 +7,8 @@ module Config
   module Logging
 
     ERROR_LOG = $stderr
-    INFO_LOG = File.new((File.expand_path(File.join(File.dirname(__FILE__), 'logs.txt'))), 'w+')
+    INFO_LOG = $stdout
+        #File.new((File.expand_path(File.join(File.dirname(__FILE__), 'logs.txt'))), 'w+')
 
 
     def info_logger(level, message)

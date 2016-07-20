@@ -1,0 +1,596 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:31 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=BYOTT9W2dJh1D7TuECk5wlF7.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"metadataDefinitions":[{"id":32277,"uuid":"ea45b59e-a9ef-4341-9635-3017301de587","name":"xxxxx","displayName":"xxxxx","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/32277","created":"11
+        Jul 2016 10:55:19 +0000","lastModified":"15 Jul 2016 12:52:10 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"1-546d5f8fe9292420e8986cfc08bc690c43d8c932"},{"id":32276,"uuid":"cab98ec0-6d67-4d67-9e12-76d7145a54dd","name":"xxxx","displayName":"xxxx","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/32276","created":"11
+        Jul 2016 10:46:39 +0000","lastModified":"19 Jul 2016 12:00:53 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"7-007a6122a19d968286f588b3d75abcbb657c9a35"},{"id":39189,"uuid":"dab9300c-d341-4671-a0b6-04aacd51c4cf","name":"publish-metadata-with-complex","displayName":"publish-metadata-with-complex","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/39189","created":"19
+        Jul 2016 14:20:11 +0000","lastModified":"19 Jul 2016 15:15:25 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"2-96f2cc1479cc27a718ea519d3bf495af71dbc205"},{"id":11615,"uuid":"d307e79a-842f-43d0-abb3-b34724f3ebf7","name":"publish-metadata-test-baby","displayName":"publish-metadata-test-baby","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":false,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11615","created":"20
+        May 2016 13:06:55 +0000","lastModified":"27 May 2016 09:11:08 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"2-0a7b8f38510d58d35e52a33684398985e2acf8be"},{"id":11518,"uuid":"10e94236-a53b-4168-89b3-8f07e6df7eee","name":"publish-metadata","displayName":"publish-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"description":"publish
+        metadata","enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11518","created":"18
+        May 2016 15:11:00 +0000","lastModified":"20 Jul 2016 12:26:26 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"7-da5517ca4526bce39734388653fb62f70a0f9001"},{"id":11312,"uuid":"8b1c580d-a8ff-475e-bb6d-da3541093f9e","name":"project-metadata","displayName":"project-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11312","created":"13
+        May 2016 10:39:07 +0000","lastModified":"20 Jul 2016 12:25:27 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"7-425e170ba677081066f2ef4429ec20b3da22a720"},{"id":17994,"uuid":"1f46cf9b-f933-4f40-92e4-816fe5629893","name":"ingest-metadata-12345","displayName":"ingest-metadata-12345","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/17994","created":"15
+        Jun 2016 08:17:04 +0000","lastModified":"17 Jun 2016 09:47:06 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"1-eba5c3170715acfcc2e1ee629f8ffcd1d98e487e"},{"id":14280,"uuid":"c6d754e6-391f-401b-91c5-407f12a1968e","name":"ingest-metadata-1234","displayName":"ingest-metadata-1234","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/14280","created":"09
+        Jun 2016 13:34:36 +0000","lastModified":"14 Jun 2016 15:23:19 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"1-02cd9f481b272780bf62dc7b366707e5aeabbbce"},{"id":13866,"uuid":"7835bea4-91ea-4484-94bf-aa55e2fb2b66","name":"ingest-metadata-123","displayName":"ingest-metadata-123","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/13866","created":"08
+        Jun 2016 17:53:45 +0000","lastModified":"09 Jun 2016 13:16:26 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"1-6713e1dbad2320c180083d48d58b31bc0b0fc949"},{"id":11517,"uuid":"d29a4c52-c74b-4a74-aa1d-45edf8381592","name":"ingest-metadata","displayName":"ingest-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
+        Definition","pluralName":"Metadata Definitions","userDefined":false},"description":"ingest
+        metadata","enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11517","created":"18
+        May 2016 14:44:17 +0000","lastModified":"20 Jul 2016 12:25:46 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
+        masteruser","accountId":4},"revision":"3-e1b78ee53e5f0fe8df5f8ccc80769b8f167433e8"}],"totalCount":10,"offset":0,"limit":100}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:31 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=vSiRU-JCrSSBlyv1gTCwTrZ9.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:32 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=Sn7dZwAecaRP8wxas9vuVzfc.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:32 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=fL2N+mqhIQYyOcGpkyB2N2ff.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:32 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=bIGxNWwQex4ZPr9BJSLw9tWL.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:33 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=lMfAYkrqqJGGZ9nzIFnlz2w5.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:18:33 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=hUmOAekSUvG9+vLByHDt1NJa.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107565,"name":"project-metadata","definition":[{"id":107566,"name":"project","displayName":"Project","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":109494,"name":"thing-url","displayName":"Thing
+        URL","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":100,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107567,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107568,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":107569,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":107570,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":107571,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107572,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107573,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":107574,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":107575,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":107576,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113206,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113207,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":107579,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":107580,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":107581,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":107582,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":107583,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":107585,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113208,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":107586,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":107587,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":107588,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":107589,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":107590,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:17:28 GMT
+recorded_with: VCR 3.0.3

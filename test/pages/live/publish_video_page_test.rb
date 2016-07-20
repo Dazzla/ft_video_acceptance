@@ -7,7 +7,7 @@ require_relative '../../../lib/webservice_clients/publish_panel_webservice_clien
 class PublishVideoPageTest < VideoTest
 
   def setup
-    @browser = Watir::Browser.new :phantomjs
+    @browser = Watir::Browser.new :chrome
     @publish_video_page = PublishVideoPage.new @browser
     @retrieve_publish_panels_client = PublishPanelWebserviceClient.new
 
@@ -26,7 +26,8 @@ class PublishVideoPageTest < VideoTest
   def test_has_attributes
     @publish_video_project_form_attributes.each_key do |attribute|
       attribute_name = attribute.tr('-', '_')
-      assert_respond_to(@publish_video_page, "#{attribute_name}_element")
+      info_logger :info, "attribute_name: #{attribute_name}"
+      assert((@publish_video_page.respond_to? "#{attribute_name}_element") || (attribute_name == 'brightcove_metadata_tags'))
     end
   end
 

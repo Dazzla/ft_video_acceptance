@@ -1,0 +1,130 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11518/definition
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.5.0 x86_64) ruby/2.3.1p112
+      Content-Type:
+      - application/vnd.nativ.mio.v1+json
+      Host:
+      - master.dev.nativ-systems.com
+      Authorization:
+      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Jul 2016 13:19:09 GMT
+      Server:
+      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, DELETE, PUT
+      Access-Control-Max-Age:
+      - '1000'
+      Access-Control-Allow-Headers:
+      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+      Pragma:
+      - No-cache
+      Cache-Control:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=9nf1LxH9y3zac4D-G4OHBMgG.-201388932; Path=/api; Secure
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"definitionId":107712,"name":"publish-metadata","definition":[{"id":107713,"name":"section","displayName":"Section","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":110884,"name":"Markets
+        &amp; Investing","displayName":"Markets &amp; Investing","default":false,"value":"http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499"},{"id":110885,"name":"Companies
+        &amp; Management","displayName":"Companies &amp; Management","default":false,"value":"http://api.ft.com/things/5eab0a2e-ca2f-4984-b9b8-3e4f95465e93"},{"id":110886,"name":"World
+        &amp; Economy","displayName":"World &amp; Economy","default":false,"value":"http://api.ft.com/things/16272492-35fb-449b-8875-dd445b58a5d5"},{"id":110887,"name":"Life
+        &amp; Arts","displayName":"Life &amp; Arts","default":false,"value":"http://api.ft.com/things/3f8f01a6-70e6-45c2-93f0-a050cc94ed3f"}]},{"id":107715,"name":"brand","displayName":"Brand","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":110888,"name":"SV","displayName":"Short
+        View","default":false,"value":"http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009"},{"id":110889,"name":"AUTH","displayName":"Authers
+        Note","default":false,"value":"http://api.ft.com/things/19e35d36-83fe-46f2-995d-4e8d9a8b6b27"},{"id":110890,"name":"MKTS","displayName":"FT
+        Markets","default":false,"value":"http://api.ft.com/things/a385a2d7-6d14-43cb-bbb0-4e2ffdd14c99"},{"id":110891,"name":"FTFM","displayName":"FTfm","default":false,"value":"http://api.ft.com/things/a1479fee-bb99-4299-8bf5-07815792abf4"},{"id":113209,"name":"AW","displayName":"Ambitious
+        Wealth","default":false,"value":"http://api.ft.com/things/49cd4cdc-fc3a-4617-a2b7-e650d152ca35"},{"id":113210,"name":"CB","displayName":"Connected
+        Business","default":false,"value":"http://api.ft.com/things/26b48a46-ebee-4adb-a8c8-4bc9234b627e"},{"id":110894,"name":"BUS","displayName":"FT
+        Business","default":false,"value":"http://api.ft.com/things/14f098b5-c368-47de-814c-de09120f9c05"},{"id":110895,"name":"LEX","displayName":"Lex","default":false,"value":"http://api.ft.com/things/1349026e-81e3-47d4-8847-ed01b15af1f8"},{"id":110896,"name":"VFTT","displayName":"View
+        from the Top","default":false,"value":"http://api.ft.com/things/977c6940-90fb-44de-9a47-b5b64a0230b6"},{"id":110897,"name":"BSCL","displayName":"Business
+        School","default":false,"value":"http://api.ft.com/things/e2b04cec-4986-4cd2-b165-a6cd218de673"},{"id":110898,"name":"WRLD","displayName":"FT
+        World","default":false,"value":"http://api.ft.com/things/1f4f114e-4571-48be-8e2e-9686a9dfb7d1"},{"id":110900,"name":"ANRV","displayName":"Analysis
+        Review","default":false,"value":"http://api.ft.com/things/9c5a9294-0fe4-4be7-837b-37826d08d295"},{"id":113211,"name":"LT","displayName":"Luce
+        Talk","default":false,"value":"http://api.ft.com/things/78efd726-fd5d-4e05-99d4-6f50b1d5215f"},{"id":110901,"name":"CMNT","displayName":"FT
+        Comment","default":false,"value":"http://api.ft.com/things/4af53874-c6b3-4969-965a-7cc68bee5b42"},{"id":110902,"name":"ALST","displayName":"The
+        A-List","default":false,"value":"http://api.ft.com/things/3b3efaa4-f3d2-4456-a119-857f29c4a404"},{"id":110903,"name":"FFT","displayName":"FirstFT","default":false,"value":"http://api.ft.com/things/60b1dc20-63e1-4361-968e-5ef73afd9d0c"},{"id":110904,"name":"ARTS","displayName":"FT
+        Arts","default":false,"value":"http://api.ft.com/things/f2e4de5f-c65e-4a8f-a042-e6c4f3b9bcdb"},{"id":110905,"name":"LIFE","displayName":"FT
+        Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":110906,"name":"WLTH","displayName":"FT
+        Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]},{"id":107717,"name":"headline","displayName":"Headline","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107718,"name":"long-lead","displayName":"Long
+        Lead","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107719,"name":"short-lead","displayName":"Short
+        Lead","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107720,"name":"link-1","displayName":"Link
+        1","description":null,"type":"url","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"text","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.resource.def.MioURLVariable$URLValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107721,"name":"link-2","displayName":"Link
+        2","description":null,"type":"url","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"text","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.resource.def.MioURLVariable$URLValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107722,"name":"link-3","displayName":"Link
+        3","description":null,"type":"url","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"text","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.resource.def.MioURLVariable$URLValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107723,"name":"credit","displayName":"Credit","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":110909,"name":"office","displayName":"Office","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":110910,"name":"london-studio","displayName":"London
+        Studio","default":false,"value":"http://api.ft.com/things/66fc881d-4a93-4672-8d88-1fa86e5ec5a2"},{"id":110911,"name":"new-york-studio","displayName":"New
+        York Studio","default":false,"value":"http://api.ft.com/things/a29a5f4f-b4ff-46f7-b597-a30437783e1e"},{"id":110912,"name":"hong-kong-studio","displayName":"Hong
+        Kong Studio","default":false,"value":"http://api.ft.com/things/c0e5a6bf-c8af-4eff-ab4c-bd78d7a9304c"},{"id":110913,"name":"manila-studio","displayName":"Manila
+        Studio","default":false,"value":"http://api.ft.com/things/5fca4a95-7946-4455-8fd7-93eff2cdb36c"}]},{"id":107726,"name":"producer","displayName":"Producer","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":110914,"name":"steve_ager","displayName":"Steve
+        Ager","default":false,"value":"http://api.ft.com/things/ce989f93-8572-4136-a0c0-a7bb44f94c7b"},{"id":110915,"name":"nicola_stansfield","displayName":"Nicola
+        Stansfield","default":false,"value":"http://api.ft.com/things/67b8180e-9cb3-4694-8bfd-08b9871bc4d1"},{"id":110916,"name":"nalini_sivathasan","displayName":"Nalini
+        Sivathasan","default":false,"value":"http://api.ft.com/things/b306232b-ccce-470b-b3a4-0935413f6ac1"},{"id":110917,"name":"seb_mortan-clark","displayName":"Seb
+        Mortan-Clark","default":false,"value":"http://api.ft.com/things/2a38c17f-92ab-4dd8-8310-079664377358"},{"id":110918,"name":"veronica_kan-dapaah","displayName":"Veronica
+        Kan-Dapaah","default":false,"value":"http://api.ft.com/things/75286d7a-72bc-478e-af83-30f30cdfc832"},{"id":110919,"name":"vanessa_kortekaas","displayName":"Vanessa
+        Kortekaas","default":false,"value":"http://api.ft.com/things/9c2a7aac-121d-4045-a9a9-e980773768cc"},{"id":110920,"name":"josh_de_la_mare","displayName":"Josh
+        de la Mare","default":false,"value":"http://api.ft.com/things/562d0f52-6da5-4af2-ab81-254d555c0bbf"},{"id":110921,"name":"daniel_garrahan","displayName":"Daniel
+        Garrahan","default":false,"value":"http://api.ft.com/things/51ce96fb-6e0b-46bf-a748-7a31711f783f"},{"id":110922,"name":"greg_bobillot","displayName":"Greg
+        Bobillot","default":false,"value":"http://api.ft.com/things/ca844dea-ef1a-4472-a578-7a7b0ca6733f"},{"id":110923,"name":"chris_booker","displayName":"Chris
+        Booker","default":false,"value":"http://api.ft.com/things/72e5b910-61ca-472e-8781-9b5ff012dbcf"},{"id":110924,"name":"tom_griggs","displayName":"Tom
+        Griggs","default":false,"value":"http://api.ft.com/things/1d6fa8ff-28d9-4382-b990-15e03a8ea243"},{"id":110925,"name":"ben_marino","displayName":"Ben
+        Marino","default":false,"value":"http://api.ft.com/things/4d663ce9-6dda-4b8f-8428-4a48e3f3a05d"},{"id":110926,"name":"paolo_pascual","displayName":"Paolo
+        Pascual","default":false,"value":"http://api.ft.com/things/19805dbc-02fd-4050-945e-4c0452a783ad"},{"id":110927,"name":"felline_reyes","displayName":"Felline
+        Reyes","default":false,"value":"http://api.ft.com/things/17ccdf27-6bfc-4f9f-9b65-61e437b0bb6d"},{"id":110928,"name":"jem_rayfield","displayName":"Jem
+        Rayfield","default":false,"value":"http://api.ft.com/things/a4fda01e-dd90-490b-a7be-7c74eafd3884"},{"id":110929,"name":"alessia_giustiniano","displayName":"Alessia
+        Giustiniano","default":false,"value":"http://api.ft.com/things/72f24c2e-c61d-4521-ab53-cfbcd119f1bd"},{"id":110930,"name":"petros_gioumpasis","displayName":"Petros
+        Gioumpasis","default":false,"value":"http://api.ft.com/things/a849a003-8856-479e-a6e5-43abd73d3c03"},{"id":110931,"name":"jill_martin-wrenn","displayName":"Jill
+        Martin-Wrenn","default":false,"value":"http://api.ft.com/things/fcf2f90b-9848-483e-a171-7c7b7324a569"},{"id":110932,"name":"freelance","displayName":"Freelance","default":false,"value":"http://api.ft.com/things/d97cfd42-ee13-4fbe-8612-6ceb0bd7f955"}]},{"id":107728,"name":"video-editor","displayName":"Video
+        Editor","description":null,"type":"single-option","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"select","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":110933,"name":"steve_ager","displayName":"Steve
+        Ager","default":false,"value":"http://api.ft.com/things/ce989f93-8572-4136-a0c0-a7bb44f94c7b"},{"id":110934,"name":"nicola_stansfield","displayName":"Nicola
+        Stansfield","default":false,"value":"http://api.ft.com/things/67b8180e-9cb3-4694-8bfd-08b9871bc4d1"},{"id":110935,"name":"ben_marino","displayName":"Ben
+        Marino","default":false,"value":"http://api.ft.com/things/72bcb7af-4ca7-4eff-bafc-0a8201f8ce0f"},{"id":110936,"name":"daniel_garrahan","displayName":"Daniel
+        Garrahan","default":false,"value":"http://api.ft.com/things/51ce96fb-6e0b-46bf-a748-7a31711f783f"},{"id":110937,"name":"seb_mortan-clark","displayName":"Seb
+        Mortan-Clark","default":false,"value":"http://api.ft.com/things/2a38c17f-92ab-4dd8-8310-079664377358"},{"id":110938,"name":"vanessa_kortekaas","displayName":"Vanessa
+        Kortekaas","default":false,"value":"http://api.ft.com/things/9c2a7aac-121d-4045-a9a9-e980773768cc"},{"id":110939,"name":"josh_de_la_mare","displayName":"Josh
+        de la Mare","default":false,"value":"http://api.ft.com/things/562d0f52-6da5-4af2-ab81-254d555c0bbf"},{"id":110940,"name":"nalini_sivathasan","displayName":"Nalini
+        Sivathasan","default":false,"value":"http://api.ft.com/things/b306232b-ccce-470b-b3a4-0935413f6ac1"},{"id":110941,"name":"veronica_kan-dapaah","displayName":"Veronica
+        Kan-Dapaah","default":false,"value":"http://api.ft.com/things/75286d7a-72bc-478e-af83-30f30cdfc832"},{"id":110942,"name":"tom_griggs","displayName":"Tom
+        Griggs","default":false,"value":"http://api.ft.com/things/1d6fa8ff-28d9-4382-b990-15e03a8ea243"},{"id":110943,"name":"greg_bobillot","displayName":"Greg
+        Bobillot","default":false,"value":"http://api.ft.com/things/ca844dea-ef1a-4472-a578-7a7b0ca6733f"},{"id":110944,"name":"rod_fitzgerald","displayName":"Rod
+        Fitzgerald","default":false,"value":"http://api.ft.com/things/9568937e-d77c-4bba-977a-a0053cef69f6"},{"id":110945,"name":"alessia_giustiniano","displayName":"Alessia
+        Giustiniano","default":false,"value":"http://api.ft.com/things/72f24c2e-c61d-4521-ab53-cfbcd119f1bd"},{"id":110946,"name":"jill_martin-wrenn","displayName":"Jill
+        Martin-Wrenn","default":false,"value":"http://api.ft.com/things/fcf2f90b-9848-483e-a171-7c7b7324a569"},{"id":110947,"name":"petros_gioumpasis","displayName":"Petros
+        Gioumpasis","default":false,"value":"http://api.ft.com/things/a849a003-8856-479e-a6e5-43abd73d3c03"},{"id":110948,"name":"jem_rayfield","displayName":"Jem
+        Rayfield","default":false,"value":"http://api.ft.com/things/a4fda01e-dd90-490b-a7be-7c74eafd3884"},{"id":110949,"name":"freelance","displayName":"Freelance","default":false,"value":"http://api.ft.com/things/d97cfd42-ee13-4fbe-8612-6ceb0bd7f955"}]},{"id":107730,"name":"freelance-video-editor","displayName":"Freelance
+        Video Editor","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":107731,"name":"restrictions","displayName":"Restrictions","description":null,"type":"boolean","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"checkbox","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"options":[{"id":107732,"name":"true","displayName":"Restricted","default":false,"value":"true"},{"id":107733,"name":"false","displayName":"Not
+        Restricted","default":false,"value":"false"}]},{"id":110950,"name":"restriction-description","displayName":"Restriction
+        Description","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":111818,"name":"poster-image","displayName":"Poster
+        Image","description":null,"type":"image","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"file","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.resource.def.MioFileVariable.FileValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":111821,"name":"thumbnail-image","displayName":"Thumbnail
+        Image","description":null,"type":"image","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"file","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.resource.def.MioFileVariable.FileValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":110952,"name":"brightcove-metadata","displayName":"Brightcove
+        Metadata","description":null,"type":"text","multiplicity":"1","searchable":true,"editable":true,"required":true,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]},{"id":113462,"name":"brightcove-metadata-tags","displayName":"Brightcove
+        Metadata Tags","description":null,"type":"complex","multiplicity":"0..*","searchable":true,"editable":true,"required":true,"formType":null,"format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":null,"valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[],"children":[{"id":113463,"name":"brightcove-tag","displayName":"Brightcove
+        Tag","description":null,"type":"text","multiplicity":"1","searchable":false,"editable":false,"required":false,"formType":"textarea","format":null,"formatDescription":null,"validation":null,"maxLength":-1,"expressionEnabled":false,"validationDescription":null,"validationHandler":"tv.nativ.mio.metadata.variable.def.validation.MaxLengthValidationHandler","valueGeneratorType":null,"unitString":null,"commentable":false,"isVisible":true,"preProcessors":[]}]}],"rules":[]}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 13:18:03 GMT
+recorded_with: VCR 3.0.3

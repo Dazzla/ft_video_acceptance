@@ -18,5 +18,5 @@ test:
         parallel: true
         files:
           - test/**/*.rb
-    - mkdir -p $CIRCLE_TEST_REPORTS/rspec/
-    - bundle exec cucumber features/panels/project.feature
+    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber/
+    - bundle exec cucumber

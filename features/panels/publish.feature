@@ -1,3 +1,4 @@
+@skip
 Feature: Publish
   Scenario: Publish Video
     When I log in to the premiere panel

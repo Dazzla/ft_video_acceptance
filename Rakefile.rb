@@ -17,6 +17,11 @@ Cucumber::Rake::Task.new(:scenarios, 'All completed features') do |t|
  t.cucumber_opts = exclude_inactive_tags
 end
 
+Cucumber::Rake::Task.new(:circle_scenarios, 'All completed features') do |t|
+  t.cucumber_opts = exclude_inactive_tags
+  t.cucumber_opts = '--format pretty --format json --out $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber'
+end
+
 Rake::TestTask.new(:unit_tests) do |t|
   t.warning = false
   t.libs << 'test'

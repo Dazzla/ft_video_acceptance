@@ -19,4 +19,4 @@ test:
         files:
           - test/**/*.rb
     - mkdir -p $CIRCLE_TEST_REPORTS/cucumber/
-    - bundle exec rake scenarios
+    - bundle exec rake circle_scenarios

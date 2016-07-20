@@ -1,0 +1,30 @@
+---
+:dev:
+
+    :ws_url: https://master.dev.nativ-systems.com/api
+    :url: http://localhost:3131
+
+    :admin_user:
+        :username: masteruser
+        :password: masteruser
+
+    :panel_id: 11_518
+    :project_metadata_name: project-metadata
+    :ingest_metadata_name: ingest-metadata
+    :publish_metadata_name: publish-metadata
+
+
+:stubs:
+    :ws_url: http://localhost:32770
+    :url: http://localhost:32770
+
+    :admin_user:
+        :username: masteruser
+        :password: masteruser
+
+    :panel_id: 1
+    :project_metadata_name: projectMetadata
+    :ingest_metadata_name: ingestMetadata
+    :publish_metadata_name: publishMetadata
+
+

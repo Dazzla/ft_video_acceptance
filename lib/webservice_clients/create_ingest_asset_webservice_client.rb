@@ -6,7 +6,7 @@ require_relative 'fetch_panel_webservice_client'
 class CreateIngestAssetWebserviceClient < FetchPanelWebserviceClient
 
   def initialize(user=WSUser.new)
-    super(user, build_url_for_data_definition(INGEST_METADATA_NAME))
+    super(user, INGEST_METADATA_NAME)
   end
 
 end

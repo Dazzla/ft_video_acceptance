@@ -10,8 +10,9 @@ class FetchPanelWebserviceClient < VideoWebserviceClient
 
   include Config
 
-  def initialize(user, url)
-    super(user, url)
+  def initialize(user, metadata_name)
+    info_logger :info, "Metadata_Name: #{metadata_name}"
+    super(user, build_url_for_data_definition(metadata_name))
   end
 
   # Returns URL for individual definition requests

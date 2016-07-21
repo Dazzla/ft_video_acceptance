@@ -9,11 +9,12 @@ require_relative '../../../test/factories/video_asset_factory'
 class IngestPage < PanelPage
 
   include Logging
+  include Constants
 
   button :ingest_button
 
   VCR.use_cassette 'ingest page elements' do
-    define_page_elements(CreateIngestAssetWebserviceClient.new)
+    define_page_elements(FetchPanelWebserviceClient.new(user=WSUser.new, INGEST_METADATA_NAME))
   end
 
   # Complete form for Ingestion

@@ -22,7 +22,7 @@ class FTLoginPage < PanelPage
   #
   # @param [Hash] user admin user
   # @return [TrueClass]
-  def log_in(user=Constants::ADMIN_USER)
+  def log_in(user=Constants::PANELS_USER)
     log_in_button_element.when_present.click
     self.username = user[:username]
     self.password = user[:password]

@@ -7,7 +7,8 @@ module Config
   module Logging
 
     ERROR_LOG = $stderr
-    INFO_LOG = File.new((File.expand_path(File.join(File.dirname(__FILE__), 'logs.txt'))), 'w+')
+    INFO_LOG = $stdout
+    #File.new((File.expand_path(File.join(File.dirname(__FILE__), 'logs.txt'))), 'w+')
 
 
     def info_logger(level, message)
@@ -21,8 +22,10 @@ module Config
   end
 
   module Constants
-
     EXECUTION_ENVIRONMENT ||= :dev
+    PANELS_USERNAME = ENV['PANELS_USERNAME']
+    PANELS_PASSWORD = ENV['PANELS_PASSWORD']
+    PANELS_USER = {username: PANELS_USERNAME, password: PANELS_PASSWORD}
     REPORTS ||= '../../reports'
     CONFIG ||= YAML.load_file(File.expand_path(File.join(File.dirname(__FILE__), 'master.yml')))
     ENVIRONMENT_CONFIG ||= CONFIG[EXECUTION_ENVIRONMENT]

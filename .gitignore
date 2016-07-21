@@ -61,3 +61,11 @@ config/logs.txt
 .idea/video_acceptance.iml
 
 logs/vcr_log.log
+
+.idea/.rakeTasks
+
+.idea/runConfigurations/Scenarios.xml
+
+.idea/runConfigurations/Unit_Tests.xml
+
+.idea/vcs.xml

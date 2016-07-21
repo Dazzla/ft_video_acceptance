@@ -9,7 +9,7 @@ class FetchPanelClientTest < VideoTest
   TEST_FETCH_URL = "#{Config::Constants::MIO_WS_URL}/metadataDefinitions/#{PANEL_ID}/definition"
 
   def setup
-    @mio_fetch_panels_client = FetchPanelWebserviceClient.new(WSUser.new, TEST_FETCH_URL)
+    @mio_fetch_panels_client = FetchPanelWebserviceClient.new(WSUser.new, PROJECT_METADATA_NAME)
   end
 
   def test_get_panel_elements

@@ -25,7 +25,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:31 GMT
+      - Thu, 21 Jul 2016 09:19:22 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -43,7 +43,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=BYOTT9W2dJh1D7TuECk5wlF7.-201388932; Path=/api; Secure
+      - JSESSIONID=2iJrWsWoMttx-IrYD884qYXR.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -136,7 +136,7 @@ http_interactions:
         Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
         masteruser","accountId":4},"revision":"3-e1b78ee53e5f0fe8df5f8ccc80769b8f167433e8"}],"totalCount":10,"offset":0,"limit":100}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:17 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -162,7 +162,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:31 GMT
+      - Thu, 21 Jul 2016 09:19:23 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -180,7 +180,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=vSiRU-JCrSSBlyv1gTCwTrZ9.-201388932; Path=/api; Secure
+      - JSESSIONID=cfpO7fiwBrBByL6T8NDtGd9e.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -212,7 +212,7 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:17 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -238,7 +238,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:32 GMT
+      - Thu, 21 Jul 2016 09:19:23 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -256,7 +256,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=Sn7dZwAecaRP8wxas9vuVzfc.-201388932; Path=/api; Secure
+      - JSESSIONID=szH37JjqUqj+3r7dVMIXtMAf.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -288,7 +288,7 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:26 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:18 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -314,7 +314,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:32 GMT
+      - Thu, 21 Jul 2016 09:19:23 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -332,7 +332,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=fL2N+mqhIQYyOcGpkyB2N2ff.-201388932; Path=/api; Secure
+      - JSESSIONID=1AM0zx2xgVL0C+SjzAwkEaG2.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -364,7 +364,7 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:18 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -390,7 +390,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:32 GMT
+      - Thu, 21 Jul 2016 09:19:24 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -408,7 +408,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=bIGxNWwQex4ZPr9BJSLw9tWL.-201388932; Path=/api; Secure
+      - JSESSIONID=UZAQtnPrb6rqw1zTK7tSm+cE.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -440,7 +440,7 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:18 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -466,7 +466,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:33 GMT
+      - Thu, 21 Jul 2016 09:19:24 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -484,7 +484,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=lMfAYkrqqJGGZ9nzIFnlz2w5.-201388932; Path=/api; Secure
+      - JSESSIONID=i-GChufScs++yawYD2yOCFw1.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -516,7 +516,7 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:27 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:19 GMT
 - request:
     method: get
     uri: https://master.dev.nativ-systems.com/api/metadataDefinitions/11312/definition
@@ -542,7 +542,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 20 Jul 2016 13:18:33 GMT
+      - Thu, 21 Jul 2016 09:19:24 GMT
       Server:
       - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
       Access-Control-Allow-Origin:
@@ -560,7 +560,7 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=hUmOAekSUvG9+vLByHDt1NJa.-201388932; Path=/api; Secure
+      - JSESSIONID=6LSyLFubN+2S6gcFsgV26wX5.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
       Access-Control-Allow-Credentials:
@@ -592,5 +592,5 @@ http_interactions:
         Life","default":false,"value":"http://api.ft.com/things/5cd8e3ff-a8db-4330-a67c-e37c48dbf008"},{"id":107591,"name":"WLTH","displayName":"FT
         Wealth","default":false,"value":"http://api.ft.com/things/c099c3ec-06a5-4f24-98b5-779dcf65c430"}]}],"rules":[]}'
     http_version: 
-  recorded_at: Wed, 20 Jul 2016 13:17:28 GMT
+  recorded_at: Thu, 21 Jul 2016 09:18:19 GMT
 recorded_with: VCR 3.0.3

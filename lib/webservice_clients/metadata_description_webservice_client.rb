@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require_relative 'video_webservice_client'
 require_relative '../../test/data/ws_user'
 require_relative '../../config/config'
 #require 'vcr'

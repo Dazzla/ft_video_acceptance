@@ -54,6 +54,7 @@ GEM
     faker (1.6.5)
       i18n (~> 0.5)
     ffi (1.9.14)
+    ft_video_webservice_client (0.1.4)
     gherkin (4.0.0)
     hashdiff (0.3.0)
     http-cookie (1.0.2)
@@ -134,6 +135,7 @@ DEPENDENCIES
   ci_reporter_minitest
   cucumber
   factory_girl
+  ft_video_webservice_client (>= 0.1.4)
   minitest
   minitest-ci!
   page-object

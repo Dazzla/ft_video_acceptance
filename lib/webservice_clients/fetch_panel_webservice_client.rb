@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 require 'rest-client'
-require_relative 'video_webservice_client'
-require_relative 'metadata_description_webservice_client'
+require 'ft_video_webservice_client'
 require_relative '../../config/config'
 
 ###

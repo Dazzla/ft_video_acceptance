@@ -34,17 +34,17 @@ module Config
     FT_ROOT_URL ||= ENVIRONMENT_CONFIG[:url]
     ADMIN_USER ||= ENVIRONMENT_CONFIG[:admin_user]
     PANEL_ID ||= ENVIRONMENT_CONFIG[:panel_id]
-    DEFAULT_SECTION = 'http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499'
-    DEFAULT_BRAND = 'http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009'
-    HTTP_SUCCESS_CODES = (200...299)
-    WAIT_DELAY = 5
-    ASSET_PATH = 'b0778312-7686-49bc-a720-0551709ad37b/Missing.mp4'
-    ASSET_TITLE = 'Missing.mp4'
-    ASSET_UUID = 'b0778312-7686-49bc-a720-0551709ad37b'
-    ASSET_URL = 'https://api.ft.com/thing/5d24e298-c1da-4831-8332-74941875a159'
-    PROJECT_METADATA_NAME = ENVIRONMENT_CONFIG[:project_metadata_name]
-    INGEST_METADATA_NAME = ENVIRONMENT_CONFIG[:ingest_metadata_name]
-    PUBLISH_METADATA_NAME = ENVIRONMENT_CONFIG[:publish_metadata_name]
+    DEFAULT_SECTION ||= 'http://api.ft.com/things/12bcffe1-f9f1-47ce-a3aa-e2dcdfaf7499'
+    DEFAULT_BRAND ||= 'http://api.ft.com/things/d4991c65-5e03-471c-bbba-fdb20d9d1009'
+    HTTP_SUCCESS_CODES ||= (200...299)
+    WAIT_DELAY ||= 5
+    ASSET_PATH ||= 'b0778312-7686-49bc-a720-0551709ad37b/Missing.mp4'
+    ASSET_TITLE ||= 'Missing.mp4'
+    ASSET_UUID ||= 'b0778312-7686-49bc-a720-0551709ad37b'
+    ASSET_URL ||= 'https://api.ft.com/thing/5d24e298-c1da-4831-8332-74941875a159'
+    PROJECT_METADATA_NAME ||= ENVIRONMENT_CONFIG[:project_metadata_name]
+    INGEST_METADATA_NAME ||= ENVIRONMENT_CONFIG[:ingest_metadata_name]
+    PUBLISH_METADATA_NAME ||= ENVIRONMENT_CONFIG[:publish_metadata_name]
     OTP = ROTP::TOTP.new(ENV['MIO_APP_KEY'])
   end
 

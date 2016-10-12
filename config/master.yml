@@ -13,6 +13,32 @@
     :ingest_metadata_name: ingest-metadata
     :publish_metadata_name: publish-metadata
 
+:master_flex:
+
+    :ws_url: https://master-flex-jemdev.ft.com/api
+    :url: http://localhost:3131
+
+    :admin_user:
+        :username: masteruser
+        :password: masteruser
+
+    :project_metadata_name: project-metadata
+    :ingest_metadata_name: ingest-metadata
+    :publish_metadata_name: publish-metadata
+
+
+:jem_flex:
+
+    :ws_url: https://master-flex-jemdev.ft.com/api
+    :url: http://localhost:3131
+
+    :admin_user:
+        :username: masteruser
+        :password: masteruser
+
+    :project_metadata_name: project-metadata
+    :ingest_metadata_name: ingest-metadata
+    :publish_metadata_name: publish-metadata
 
 :stubs:
     :ws_url: http://localhost:32770

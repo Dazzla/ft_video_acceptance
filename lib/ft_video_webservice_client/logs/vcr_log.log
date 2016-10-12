@@ -1,0 +1,106 @@
+[Cassette: 'project page elements'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'project page elements'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'project page elements'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'project page elements'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'project page elements'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'project page elements'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'ingest page elements'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'ingest page elements'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'ingest page elements'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'ingest page elements'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'ingest page elements'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'ingest page elements'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'publish page elements'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'publish page elements'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'publish page elements'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'publish page elements'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'publish page elements'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'publish page elements'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new project webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new project webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new project webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new project webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new project webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new project webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new project webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new project webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new project webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new project webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new project webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new project webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new project webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new project webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new project webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new project webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new project webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new project webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+[webmock] Identified request type (recordable) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+[webmock] Identified request type (recordable) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+[webmock] Identified request type (recordable) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+[webmock] Identified request type (recordable) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+[webmock] Identified request type (recordable) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new ingest webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new ingest webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new ingest webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new ingest webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new ingest webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new ingest webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new ingest webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new ingest webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new ingest webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new ingest webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new ingest webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new ingest webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new ingest webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new ingest webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new ingest webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new ingest webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new ingest webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new ingest webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new publish webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new publish webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new publish webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new publish webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new publish webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new publish webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new publish webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new publish webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new publish webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new publish webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new publish webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new publish webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+[Cassette: 'new publish webservice client'] Initialized with options: {:record=>:once, :match_requests_on=>[:method, :uri], :allow_unused_http_interactions=>true, :serialize_with=>:yaml, :persist_with=>:file_system}
+[webmock] Handling request: [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] (disabled: false)
+  [Cassette: 'new publish webservice client'] Initialized HTTPInteractionList with request matchers [:method, :uri] and 1 interaction(s): { [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] => [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"] }
+  [Cassette: 'new publish webservice client'] Checking if [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] matches [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] using [:method, :uri]
+    [Cassette: 'new publish webservice client'] method (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+    [Cassette: 'new publish webservice client'] uri (matched): current request [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] vs [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]
+  [Cassette: 'new publish webservice client'] Found matching interaction for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions] at index 0: [401 "<html><head><title>JBoss Web/7.4.10.Final-redhat-1 - JBWEB000064: Error report</"]
+[webmock] Identified request type (stubbed_by_vcr) for [get https://master-flex-jemdev.ft.com/api/metadataDefinitions]

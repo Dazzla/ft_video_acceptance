@@ -54,7 +54,6 @@ GEM
     faker (1.6.5)
       i18n (~> 0.5)
     ffi (1.9.14)
-    ft_video_webservice_client (0.1.4)
     gherkin (4.0.0)
     hashdiff (0.3.0)
     http-cookie (1.0.2)
@@ -73,6 +72,7 @@ GEM
       watir-webdriver (>= 0.6.11)
     page_navigation (0.9)
       data_magic (>= 0.14)
+    phantomjs (2.1.1.0)
     power_assert (0.3.0)
     rack (2.0.1)
     rack-cache (1.6.1)
@@ -135,10 +135,10 @@ DEPENDENCIES
   ci_reporter_minitest
   cucumber
   factory_girl
-  ft_video_webservice_client (>= 0.1.4)
   minitest
   minitest-ci!
   page-object
+  phantomjs
   rack-cache
   rake
   rest-client
@@ -153,4 +153,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.12.5
+   1.13.2

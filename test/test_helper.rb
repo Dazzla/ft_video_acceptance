@@ -1,6 +1,7 @@
 # frozen_string_literal: true
  require 'factory_girl'
  require 'minitest/ci'
+require 'selenium-webdriver'
  require_relative '../config/config'
  require_relative '../vcr_setup'
  require_relative '../test/factories/video_asset_factory'
@@ -10,5 +11,6 @@
  require_relative 'video_test'
  require_relative '../test/data/publish_video'
  require_relative '../config/config'
+ require_relative '../lib/ft_video_webservice_client/ft_video_webservice_client'
 
- Minitest::Ci.clean = false
+ Selenium::WebDriver::PhantomJS.path = './phantom/phantomjs'

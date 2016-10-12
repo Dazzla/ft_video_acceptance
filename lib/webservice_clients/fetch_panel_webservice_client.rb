@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 require 'rest-client'
-require 'ft_video_webservice_client'
+require_relative '../ft_video_webservice_client/ft_video_webservice_client'
 require_relative '../../config/config'
 
 ###

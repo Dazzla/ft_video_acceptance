@@ -13,7 +13,7 @@ class ProjectPage < PanelPage
   end
 
   div(:form, id: 'handler__formBuilder')
-  button(:submit_project, text: 'submit workflow')
+  button(:submit_project)
 
   ##
   # Creates a bare-bones project in the web interface
@@ -23,8 +23,7 @@ class ProjectPage < PanelPage
   def create_project(project_name)
     sleep 0.5
     project_element.when_present.value = project_name
-    thing_url_element.when_present.value = 'http://www.example.com'
-    submit_project
+    submit_project_element.when_present.click
   end
 
   ##

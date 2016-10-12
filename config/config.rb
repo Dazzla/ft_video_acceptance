@@ -22,7 +22,7 @@ module Config
   end
 
   module Constants
-    EXECUTION_ENVIRONMENT ||= :dev
+    EXECUTION_ENVIRONMENT ||= :jemdev
     PANELS_USERNAME = ENV['PANELS_USERNAME']
     PANELS_PASSWORD = ENV['PANELS_PASSWORD']
     PANELS_USER = {username: PANELS_USERNAME, password: PANELS_PASSWORD}

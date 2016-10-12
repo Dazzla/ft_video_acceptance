@@ -2,7 +2,6 @@
 source 'https://rubygems.org'
 
 group :test do
-  gem 'ft_video_webservice_client',  '>=0.1.4'
   gem 'rake'
   gem 'cucumber'
   gem 'watir-webdriver'
@@ -24,4 +23,5 @@ group :test do
   gem 'minitest'
   gem 'rotp'
   gem 'rspec_junit_formatter'
+  gem 'phantomjs'
 end

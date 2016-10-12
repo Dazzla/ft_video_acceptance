@@ -26,6 +26,7 @@ class FTLoginPage < PanelPage
     log_in_button_element.when_present.click
     self.username = user[:username]
     self.password = user[:password]
+    puts OTP.now
     self.two_factor_code_field = OTP.now
     submit_button
     error_logger :warn, 'Login Failed' unless logged_in?

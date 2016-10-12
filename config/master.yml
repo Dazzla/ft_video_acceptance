@@ -27,7 +27,7 @@
     :publish_metadata_name: publish-metadata
 
 
-:jem_flex:
+:jemdev:
 
     :ws_url: https://master-flex-jemdev.ft.com/api
     :url: http://localhost:3131

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://master.dev.nativ-systems.com/api/metadataDefinitions
+    uri: https://master-flex-jemdev.ft.com/api/metadataDefinitions
     body:
       encoding: US-ASCII
       string: ''
@@ -16,125 +16,105 @@ http_interactions:
       Content-Type:
       - application/vnd.nativ.mio.v1+json
       Host:
-      - master.dev.nativ-systems.com
+      - master-flex-jemdev.ft.com
       Authorization:
-      - Basic bWFzdGVydXNlcjptNHN0M3J1czNy
+      - Basic bWFzdGVydXNlcjptYXN0ZXJ1c2Vy
   response:
     status:
       code: 200
       message: OK
     headers:
-      Date:
-      - Thu, 21 Jul 2016 09:19:43 GMT
-      Server:
-      - Apache/2.4.10 (Unix) OpenSSL/1.0.1e-fips
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - POST, GET, OPTIONS, DELETE, PUT
-      Access-Control-Max-Age:
-      - '1000'
-      Access-Control-Allow-Headers:
-      - x-requested-with, Content-Type, origin, authorization, accept, client-security-token
-      Pragma:
-      - No-cache
       Cache-Control:
       - no-cache
-      Expires:
-      - Thu, 01 Jan 1970 00:00:00 UTC
-      Set-Cookie:
-      - JSESSIONID=pejGARQn+2-Vc4a0v0NxsveX.-201388932; Path=/api; Secure
       Content-Type:
       - application/json
-      Access-Control-Allow-Credentials:
-      - 'true'
+      Date:
+      - Mon, 17 Oct 2016 12:18:59 GMT
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Pragma:
+      - No-cache
+      Server:
+      - Apache-Coyote/1.1
       Transfer-Encoding:
       - chunked
+      Connection:
+      - keep-alive
     body:
       encoding: UTF-8
-      string: '{"metadataDefinitions":[{"id":32277,"uuid":"ea45b59e-a9ef-4341-9635-3017301de587","name":"xxxxx","displayName":"xxxxx","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/32277","created":"11
-        Jul 2016 10:55:19 +0000","lastModified":"15 Jul 2016 12:52:10 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"1-546d5f8fe9292420e8986cfc08bc690c43d8c932"},{"id":32276,"uuid":"cab98ec0-6d67-4d67-9e12-76d7145a54dd","name":"xxxx","displayName":"xxxx","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/32276","created":"11
-        Jul 2016 10:46:39 +0000","lastModified":"19 Jul 2016 12:00:53 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"7-007a6122a19d968286f588b3d75abcbb657c9a35"},{"id":39189,"uuid":"dab9300c-d341-4671-a0b6-04aacd51c4cf","name":"publish-metadata-with-complex","displayName":"publish-metadata-with-complex","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/39189","created":"19
-        Jul 2016 14:20:11 +0000","lastModified":"19 Jul 2016 15:15:25 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"2-96f2cc1479cc27a718ea519d3bf495af71dbc205"},{"id":11615,"uuid":"d307e79a-842f-43d0-abb3-b34724f3ebf7","name":"publish-metadata-test-baby","displayName":"publish-metadata-test-baby","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":false,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11615","created":"20
-        May 2016 13:06:55 +0000","lastModified":"27 May 2016 09:11:08 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"2-0a7b8f38510d58d35e52a33684398985e2acf8be"},{"id":11518,"uuid":"10e94236-a53b-4168-89b3-8f07e6df7eee","name":"publish-metadata","displayName":"publish-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"description":"publish
-        metadata","enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11518","created":"18
-        May 2016 15:11:00 +0000","lastModified":"20 Jul 2016 12:26:26 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"7-da5517ca4526bce39734388653fb62f70a0f9001"},{"id":11312,"uuid":"8b1c580d-a8ff-475e-bb6d-da3541093f9e","name":"project-metadata","displayName":"project-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11312","created":"13
-        May 2016 10:39:07 +0000","lastModified":"20 Jul 2016 12:25:27 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"7-425e170ba677081066f2ef4429ec20b3da22a720"},{"id":17994,"uuid":"1f46cf9b-f933-4f40-92e4-816fe5629893","name":"ingest-metadata-12345","displayName":"ingest-metadata-12345","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/17994","created":"15
-        Jun 2016 08:17:04 +0000","lastModified":"17 Jun 2016 09:47:06 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"1-eba5c3170715acfcc2e1ee629f8ffcd1d98e487e"},{"id":14280,"uuid":"c6d754e6-391f-401b-91c5-407f12a1968e","name":"ingest-metadata-1234","displayName":"ingest-metadata-1234","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/14280","created":"09
-        Jun 2016 13:34:36 +0000","lastModified":"14 Jun 2016 15:23:19 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"1-02cd9f481b272780bf62dc7b366707e5aeabbbce"},{"id":13866,"uuid":"7835bea4-91ea-4484-94bf-aa55e2fb2b66","name":"ingest-metadata-123","displayName":"ingest-metadata-123","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/13866","created":"08
-        Jun 2016 17:53:45 +0000","lastModified":"09 Jun 2016 13:16:26 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"1-6713e1dbad2320c180083d48d58b31bc0b0fc949"},{"id":11517,"uuid":"d29a4c52-c74b-4a74-aa1d-45edf8381592","name":"ingest-metadata","displayName":"ingest-metadata","objectType":{"id":12,"name":"metadata-definition","href":"https://master.dev.nativ-systems.com/api/objectTypes/12","displayName":"Metadata
-        Definition","pluralName":"Metadata Definitions","userDefined":false},"description":"ingest
-        metadata","enabled":true,"deleted":false,"href":"https://master.dev.nativ-systems.com/api/metadataDefinitions/11517","created":"18
-        May 2016 14:44:17 +0000","lastModified":"20 Jul 2016 12:25:46 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
-        masteruser","href":"https://master.dev.nativ-systems.com/api/users/5","email":"videyo+test@ft.com","accountId":4},"visibility":[{"id":4,"name":"Master
-        Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master.dev.nativ-systems.com/api/objectTypes/24","displayName":"Master
-        Account","pluralName":"Master Accounts","userDefined":false},"owner":"masteruser
-        masteruser","accountId":4},"revision":"3-e1b78ee53e5f0fe8df5f8ccc80769b8f167433e8"}],"totalCount":10,"offset":0,"limit":100}'
+      string: '{"metadataDefinitions":[{"id":12423,"uuid":"105dd6ef-a606-49c6-9665-637c3734ecb2","name":"brightcovemetadata","displayName":"brightcovemetadata","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/12423","created":"13
+        Oct 2016 10:55:32 +0000","lastModified":"13 Oct 2016 10:55:33 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"1-97412c0d927ef65c3944db97cb587b4135bb3d53","locked":false},{"id":12122,"uuid":"d64c5139-4e34-4b50-8201-b4b32951c63d","name":"all-test-metadata","displayName":"all-test-metadata","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/12122","created":"11
+        Oct 2016 16:07:42 +0000","lastModified":"13 Oct 2016 17:54:44 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"5-442b51cb68e3127186cfcef141d622f2b73c31f1","locked":false},{"id":11122,"uuid":"54f36f9c-7ee2-4dd6-826c-2de1b319f72f","name":"metadata-definition","displayName":"metadata-definition","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/11122","created":"29
+        Sep 2016 11:23:44 +0000","lastModified":"11 Oct 2016 15:14:08 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"2-9202f3d85a358dab9204d185111dfaf26658c816","locked":false},{"id":10126,"uuid":"51f60e14-4f2a-4573-88ff-40964726e2a3","name":"publish-metadata-asset","displayName":"publish-metadata-asset","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/10126","created":"19
+        Sep 2016 11:23:25 +0000","lastModified":"11 Oct 2016 14:50:31 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"1-a36307231ff93a0a49ebbe59ba23522dd34c1ca4","locked":false},{"id":10125,"uuid":"39bcae5d-6536-42ac-823e-e66434033267","name":"publish-metadata","displayName":"publish-metadata","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/10125","created":"19
+        Sep 2016 11:23:24 +0000","lastModified":"13 Oct 2016 10:19:29 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"2-10f9c46f5178e195bf10ef29eeacff41d2b99461","locked":false},{"id":10108,"uuid":"61d5d52c-3086-42c2-943e-b664355bc998","name":"ingest-metadata-asset","displayName":"ingest-metadata-asset","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/10108","created":"19
+        Sep 2016 11:22:44 +0000","lastModified":"11 Oct 2016 14:49:53 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"1-3e72f0a141ea6db995be29d6d1fa366c5d7d1872","locked":false},{"id":10107,"uuid":"2cb2a72f-a07d-4b96-ade4-8922242b27ad","name":"ingest-metadata","displayName":"ingest-metadata","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/10107","created":"19
+        Sep 2016 11:22:43 +0000","lastModified":"12 Oct 2016 10:03:17 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"1-a7ad6f02696b40a6782ce9d89008ba6588327910","locked":false},{"id":10100,"uuid":"4a4f9ae2-d9d7-485f-9a8d-c05828a2e472","name":"project-metadata","displayName":"project-metadata","externalIds":[],"enabled":true,"deleted":false,"href":"https://master-flex-jemdev.ft.com/api/metadataDefinitions/10100","created":"19
+        Sep 2016 11:22:25 +0000","lastModified":"12 Oct 2016 10:03:16 +0000","owner":{"id":5,"name":"masteruser","displayName":"masteruser
+        masteruser","href":"https://master-flex-jemdev.ft.com/api/users/5","accountId":4},"visibility":[{"id":4,"name":"Master
+        Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"}],"account":{"id":4,"name":"Master Account","objectType":{"id":24,"name":"master-account","href":"https://master-flex-jemdev.ft.com/api/objectTypes/24","displayName":"Master
+        Account","pluralName":"Master Accounts","userDefined":false,"attachmentsSupported":false,"commentsSupported":false,"objectDataSupported":false,"contentMetadataSupported":false,"metadataSupported":false},"enabled":true,"owner":"masteruser
+        masteruser","ownerId":5,"accountId":4,"created":"10 Jun 2015 10:26:05 +0000","lastModified":"19
+        Sep 2016 11:03:56 +0000"},"revision":"1-147651c8582914b52659e2af0fced0ad5edc88a0","locked":false}],"totalCount":8,"offset":0,"limit":100}'
     http_version: 
-  recorded_at: Thu, 21 Jul 2016 09:18:38 GMT
+  recorded_at: Mon, 17 Oct 2016 12:19:00 GMT
 recorded_with: VCR 3.0.3

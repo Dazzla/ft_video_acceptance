@@ -36,6 +36,7 @@
         :username: masteruser
         :password: masteruser
 
+    :panel_id: 10100
     :project_metadata_name: project-metadata
     :ingest_metadata_name: ingest-metadata
     :publish_metadata_name: publish-metadata
